@@ -41,8 +41,7 @@ namespace phonetic {
         }
 
         if (ans.length() == 0) { // if we didnt find the word
-            throw std::invalid_argument("the word havent been found");
-
+           throw std::invalid_argument("Did not find the word " + word +" in the text");
         }
         return "";
     }
