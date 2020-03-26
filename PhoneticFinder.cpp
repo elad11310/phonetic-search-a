@@ -35,7 +35,7 @@ namespace phonetic {
                 }
             }
             // if we found the word.
-            if (counter == len) {
+            if (counter == len && len!=0) {
                 return words[i];
             }
         }
